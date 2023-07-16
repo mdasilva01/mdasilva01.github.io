@@ -1,0 +1,106 @@
+nav {
+    background-color: #CD6B24;
+    width: 100%;
+    height: 100px;
+  }
+  
+  ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 25px;
+  }
+
+  li {
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'Alexandria', sans-serif;
+    font-weight: bold;
+    margin-right: 30px;
+    position: relative;
+  }
+
+  .dropdown {
+    list-style-type: none;
+    padding: 0;
+    background-color: #CD6B24;
+  }
+
+  .drop-ops {
+    font-size: 13px;
+    font-family: 'Alexandria', sans-serif;
+    position: absolute;
+    display: none;
+    background-color: #9b501b;
+    padding: 10px;
+  }
+
+  p {
+    margin-top: 10px;
+    position: relative;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50px;
+  }
+  
+  a:hover {
+    background-color: white;
+    color: #CD6B24;
+    display: inline-block;
+  }
+
+  a:hover + .drop-ops {
+    display: block;
+  }
+
+
+body {
+    background-color: #FAF1D5;
+    padding: 0;
+    margin: 0;
+  }
+
+  h1 {
+    color: #CD6B24;
+    font-size: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation-duration: 0.5s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    text-align: center;
+  }
+  @keyframes slidein {
+    0% {
+      margin-left: 0%;
+    }
+    50% {
+      margin-left: 300px;
+    }
+    100% {
+      margin-left: 0%;
+    }
+  }
+
+  p1 {
+    color: #3794AD;
+    font-size: 30;
+
+  }
+
+  p2 {
+    color: #EFC224;
+    font-size: 30;
+  }
+
+  p3 {
+    color: #5D923D;
+    font-size: 30;
+  }
+
+  p4 {
+    color: #CD6B24;
+    font-size: 30;
+  }
