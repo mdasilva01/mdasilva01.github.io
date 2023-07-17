@@ -23,7 +23,6 @@ nav {
 
   .dropdown {
     list-style-type: none;
-    padding: 0;
     background-color: #CC6A26;
   }
 
@@ -33,9 +32,12 @@ nav {
     position: absolute;
     display: none;
     background-color: #a2541c;
-    padding: 3px;
     border-radius: 20px;
     width: 100%;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   p {
