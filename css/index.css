@@ -107,6 +107,12 @@ nav {
     filter: invert(100%);
   }
 
+  .logo {
+    padding-right: 20;
+    width: 60px;
+    height: auto;
+  }
+
 
 body {
     background-color: #FAF1D5;
